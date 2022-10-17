@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 
     $name = 'Hello World';
     $city = 'Dhaka';
@@ -6,6 +6,10 @@
     echo $city.'<br/>';
     echo "<h1>My name is $name and i live in $city</h1>";
     // concatination
-    echo "<h1>My name is" .$name. "and i live in".$city."</h1>";
+    echo "<h1>My name is " .$name. " and i live in".$city."</h1>";
 
-?>
+?> -->
+
+// this is single line comment
+
+# this is single line comment
