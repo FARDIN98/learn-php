@@ -48,6 +48,19 @@
                 $errors['ingredients'] = 'ingredients must be a comma separated lits';
             }
         }
+
+        // array filter cycles through our array and it performs some kind of callback function on each one we can define the call function in here 
+
+        // if there are errors that are not empty inside it then it will evaluate as true. So, thats a nice little way to check if there are any errors inside it.
+
+        // if there are no errors inside this it will return to false. So, when it returns to false it means we don't have an errors. If it return true it means we do have an error.
+        if(array_filter($errors)){
+            echo 'errors in the form';
+        } else {
+            // echo 'form is valid';
+            header('Location: index.php');
+        }
+
     } //end of post check
 
 
